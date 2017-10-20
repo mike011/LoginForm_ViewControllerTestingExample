@@ -8,6 +8,8 @@ class LoginModelTests: XCTestCase {
     func testInit_valid_returnsObject() {
         let r = LoginModel(userName: validUserName, password: validPassword)
         XCTAssertNotNil(r)
+        XCTAssertEqual(r!.userName, validUserName)
+        XCTAssertEqual(r!.password, validPassword)
     }
 
     func testUserName_tooShort_returnsNil() {
