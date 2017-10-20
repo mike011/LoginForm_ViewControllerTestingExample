@@ -8,6 +8,7 @@ class SignupModelTests: XCTestCase {
         let r = SignupModel(userName: validUserName, password:validPassword)
         XCTAssertNotNil(r)
         XCTAssertEqual(r!.userName, validUserName)
+        XCTAssertEqual(r!.password, validPassword)
     }
 
     func testUserName_tooShort_returnsNil() {

@@ -2,11 +2,13 @@ import Foundation
 
 class SignupModel {
     let userName:String
+    let password:String
     init?(userName:String, password:String) {
         guard SignupModel.validate(userName, password) else {
             return nil
         }
         self.userName = userName
+        self.password = password
     }
 
     static func validate(_ userName:String, _ password:String) -> Bool {
