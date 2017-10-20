@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C827D011F9A2CBC00F9473D /* LoginModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C827D001F9A2CBC00F9473D /* LoginModelTests.swift */; };
+		4C827D031F9A2D2000F9473D /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C827D021F9A2D2000F9473D /* LoginModel.swift */; };
+		4C827D041F9A2D2000F9473D /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C827D021F9A2D2000F9473D /* LoginModel.swift */; };
 		4C95F77C1F964E0B0065BD6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C95F77B1F964E0B0065BD6D /* AppDelegate.swift */; };
 		4C95F7811F964E0B0065BD6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C95F77F1F964E0B0065BD6D /* Main.storyboard */; };
 		4C95F7831F964E0B0065BD6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C95F7821F964E0B0065BD6D /* Assets.xcassets */; };
 		4C95F7861F964E0B0065BD6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C95F7841F964E0B0065BD6D /* LaunchScreen.storyboard */; };
-		4C95F7911F964E0B0065BD6D /* LoginFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C95F7901F964E0B0065BD6D /* LoginFormTests.swift */; };
 		4C95F7A01F9654E90065BD6D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C95F79F1F9654E90065BD6D /* LoginViewController.swift */; };
 		4C95F7A11F9654E90065BD6D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C95F79F1F9654E90065BD6D /* LoginViewController.swift */; };
 		4C95F7A31F96550F0065BD6D /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C95F7A21F96550F0065BD6D /* CreateAccountViewController.swift */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C827D001F9A2CBC00F9473D /* LoginModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModelTests.swift; sourceTree = "<group>"; };
+		4C827D021F9A2D2000F9473D /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		4C95F7781F964E0B0065BD6D /* LoginForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C95F77B1F964E0B0065BD6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C95F7801F964E0B0065BD6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -36,7 +40,6 @@
 		4C95F7851F964E0B0065BD6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C95F7871F964E0B0065BD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C95F78C1F964E0B0065BD6D /* LoginFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C95F7901F964E0B0065BD6D /* LoginFormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormTests.swift; sourceTree = "<group>"; };
 		4C95F7921F964E0B0065BD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C95F79F1F9654E90065BD6D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4C95F7A21F96550F0065BD6D /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
@@ -97,8 +100,8 @@
 		4C95F78F1F964E0B0065BD6D /* LoginFormTests */ = {
 			isa = PBXGroup;
 			children = (
-				4C95F7901F964E0B0065BD6D /* LoginFormTests.swift */,
 				4C95F7921F964E0B0065BD6D /* Info.plist */,
+				4C827D001F9A2CBC00F9473D /* LoginModelTests.swift */,
 			);
 			path = LoginFormTests;
 			sourceTree = "<group>";
@@ -115,6 +118,7 @@
 		4C95F79C1F964E710065BD6D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4C827D021F9A2D2000F9473D /* LoginModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -188,7 +192,6 @@
 					4C95F78B1F964E0B0065BD6D = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 4C95F7771F964E0B0065BD6D;
 					};
 				};
 			};
@@ -237,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C95F7A31F96550F0065BD6D /* CreateAccountViewController.swift in Sources */,
+				4C827D031F9A2D2000F9473D /* LoginModel.swift in Sources */,
 				4C95F7A01F9654E90065BD6D /* LoginViewController.swift in Sources */,
 				4C95F77C1F964E0B0065BD6D /* AppDelegate.swift in Sources */,
 			);
@@ -247,8 +251,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C95F7A41F96550F0065BD6D /* CreateAccountViewController.swift in Sources */,
+				4C827D041F9A2D2000F9473D /* LoginModel.swift in Sources */,
 				4C95F7A11F9654E90065BD6D /* LoginViewController.swift in Sources */,
-				4C95F7911F964E0B0065BD6D /* LoginFormTests.swift in Sources */,
+				4C827D011F9A2CBC00F9473D /* LoginModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,7 +428,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CY96495443;
 				INFOPLIST_FILE = LoginFormTests/Info.plist;
@@ -432,7 +436,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginForm.app/LoginForm";
 			};
 			name = Debug;
 		};
@@ -440,7 +443,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CY96495443;
 				INFOPLIST_FILE = LoginFormTests/Info.plist;
@@ -449,7 +451,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginForm.app/LoginForm";
 			};
 			name = Release;
 		};
